@@ -10,7 +10,7 @@ class Root
 		{
 			System.out.println("Real and Distinct Root:");
 			System.out.println("Root 1: " + ((-b + Math.sqrt(dis))/(2*a)));
-			System.out.println("Root 1: " + ((-b - Math.sqrt(dis))/(2*a)));
+			System.out.println("Root 2: " + ((-b - Math.sqrt(dis))/(2*a)));
 		}
 		else if(dis == 0)
 		{
@@ -22,7 +22,8 @@ class Root
 			System.out.println("Complex Root:");
 			double real = -b / (2*a);
 			double imgn = ((-b + Math.sqrt(-dis))/(2*a));
-			System.out.println("Root: " + real + " + " + imgn + "i");
+			System.out.println("Root 1: " + real + " + " + imgn + "i");
+			System.out.println("Root 2: " + real + " - " + imgn + "i");
 		}
 	}
 	
